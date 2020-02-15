@@ -1,0 +1,6 @@
+PROC IMPORT datafile="PATH"
+        out= SASFILE NAME
+        dbms=xlsx replace;
+getnames=yes;
+sheet="DataNew" ; /*select the tap to import*/
+run;
